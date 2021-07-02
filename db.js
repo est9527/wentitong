@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost:27017/wttmain', {
-    user:"wttadmin", 
-    pass:"wttadmin888", 
+    user:"1user", 
+    pass:"1pwd", 
     authSource:"admin", 
     useNewUrlParser: true,
     useUnifiedTopology: true
